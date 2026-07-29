@@ -1,8 +1,25 @@
 aid: k2-integrity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/k2-integrity.png
 name: K2 Integrity
-description: 'K2 Integrity is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'K2 Integrity is a global risk, compliance, and investigations advisory
+  firm specializing in financial crimes risk management, regulatory compliance, fraud
+  detection, asset tracing and recovery, cybersecurity and AI resilience, crypto and
+  digital-asset solutions, internal audit, and independent monitoring. It serves financial
+  institutions, corporations, governments, and law firms worldwide. K2 Integrity was
+  surfaced as a portfolio company of Bessemer Venture Partners and added to the API
+  Evangelist network; this profile has been enriched but the firm publishes no public
+  developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/k2-integrity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Cybersecurity
+- Risk Advisory
+- Compliance
+- Financial Crimes
+- Investigations
+- Regulatory
 apis: []
+common:
+- type: DomainSecurity
+  url: security/k2-integrity-domain-security.yml
+- type: Website
+  url: https://www.k2integrity.com
+- type: Blog
+  url: https://www.k2integrity.com/en/newsroom/
+- type: PrivacyPolicy
+  url: https://www.k2integrity.com/en/privacy-notice/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/k2integrity/
+- type: X
+  url: https://twitter.com/K2Integrity
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
